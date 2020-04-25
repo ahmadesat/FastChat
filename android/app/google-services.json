@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "95003084669",
+    "firebase_url": "https://mychatapp-709db.firebaseio.com",
+    "project_id": "mychatapp-709db",
+    "storage_bucket": "mychatapp-709db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95003084669:android:6d9d4e1386c8f187d2ae14",
+        "android_client_info": {
+          "package_name": "com.deanpearce.fastchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95003084669-nni7afhcouhd5ugokupnef8mk0r6t6mc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDL7WtyrUJf1FlKjQhJOXGFiaiwXA26sDo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "95003084669-nni7afhcouhd5ugokupnef8mk0r6t6mc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
