@@ -70,13 +70,16 @@ class _ChatScreenState extends State<ChatScreen> {
                   FlatButton(
                     onPressed: () {
                       //Implement send functionality.
-                      _database.collection('messages').add({
-                        'sender': widget.loggedInUser.email,
-                        'to': widget.clickedUser,
-                        'message': messageText,
-                        "time": FieldValue.serverTimestamp(),
-                      });
-                      textFieldController.clear();
+                      if (messageText != "") {
+                        _database.collection('messages').add({
+                          'sender': widget.loggedInUser.email,
+                          'to': widget.clickedUser,
+                          'message': messageText,
+                          "time": FieldValue.serverTimestamp(),
+                        });
+                        messageText = "";
+                        textFieldController.clear();
+                      }
                     },
                     child: Icon(
                       Icons.send,
